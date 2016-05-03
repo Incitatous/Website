@@ -1,0 +1,165 @@
+@font-face {
+	font-family: jaapokkienhance;
+	src: url("fonts/jaapokkienchance-regular.woff"), url("fonts/jaapokkienchance-regular.eot"), url("fonts/jaapokkienchance-regular.ttf");
+}
+@font-face {
+	font-family: jaapokki;
+	src: url("fonts/jaapokki-regular.woff"), url("fonts/jaapokki-regular.eot"), url("fonts/jaapokki-regular.ttf");
+}
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #1D2326; /* or #42423F; */
+	font-family: jaapokki, sans-serif;
+	background-size: 100%;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	height: 100%; /* latest edit */
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+article {
+	flex: 2;
+	overflow-y: auto;
+	background-color: #1D2326;
+}
+
+aside {
+	flex: 1;
+	overflow-y: auto:;
+}
+
+ul { list-style: none;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a {
+	padding: 0;
+}
+header {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	height: 100%;
+	width: 100%;
+}
+
+header h1 {
+	text-align: left;
+}
+
+header ul li a {
+	color: #FFD10F;
+}
+
+header ul li a:hover {
+    color: white;
+    font-size: 125%;
+}
+
+footer {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	font-family: jaapokkienhance, serif;
+	color: #FFBE00;
+	text-align: center;
+	display: block;
+}
+
+h2 {
+	color: #8C948A;
+}
+
+h3 {
+	color: #8C948A;
+}
+
+h4 {
+	color: #8C948A;
+}
+
+p {
+	display: inline-block;
+}
+
+.image {
+	position: relative; 
+	width: 100%;
+	height: 100%;
+}
+
+.image:hover {
+	opacity: 0.6;
+}
+
+div h5 {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	color: #FFBE00;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 4rem;
+	transform: translate(-50%, -50%);
+}
+
+a div img {
+	margin: 0;
+	padding: 0;
+}
+
+.main-image {
+	display: block;
+	width: 100%;
+}
+
+/* About page */
+
+article div {
+	color: #FFD10F;
+	font-style: italic;
+}
+
+.button {
+	display: inline-table;
+	height: 70px;
+	width: 70px;
+	background: #FFD10F;
+	font-family: jaapokki, sans-serif;
+	text-align: center;
+	border: none;
+
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.button:hover {
+	background-color: black;
+	color: #FFD10F;
+}
